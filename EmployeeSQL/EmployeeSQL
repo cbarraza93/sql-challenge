@@ -1,0 +1,40 @@
+-- Create the departments table
+CREATE TABLE departments (
+	dept_no VARCHAR,
+	dept_name VARCHAR
+);
+
+-- Create the dept_emp table
+CREATE TABLE dept_emp (
+	emp_no INT,
+	dept_no VARCHAR
+);
+
+-- Create the dept_manager table
+CREATE TABLE dept_manager (
+	dept_no VARCHAR,
+	emp_no INT
+);
+
+-- Create the employees table
+CREATE TABLE employees (
+	emp_no INT,
+	emp_title_id VARCHAR,
+	birth_date VARCHAR,
+	first_name VARCHAR,
+	last_name VARCHAR,
+	sex VARCHAR,
+	hire_date VARCHAR
+);
+
+-- Create the salaries table
+CREATE TABLE salaries (
+	emp_no INT,
+	salary INT
+);
+
+-- Create the titles table
+CREATE TABLE titles (
+	title_id VARCHAR,
+	title VARCHAR
+);
